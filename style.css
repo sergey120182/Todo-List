@@ -1,0 +1,71 @@
+body{
+background:url(./img/todolist.jpg) top center fixed;
+text-align: center;
+font-size: 30px;
+font-weight: 900;
+color: lightseagreen;
+}
+.main-content{
+height: 150px;
+width: 100%;
+background:lightblue;
+opacity: 0.5;
+border-radius: 15px;
+}
+.flex{
+display: flex;
+flex-wrap:wrap;
+justify-content:space-between;
+margin: 10px;
+
+}
+#text{
+opacity: 0.9;
+height: 30px;
+width: 80%;
+margin:45px;
+padding: 10px;
+font-size: 1.5em;  
+	}
+#opener{
+border-radius: 90px;
+background:lightgreen;
+border:1px solid grey;
+position: relative;
+font-size:100%;
+color:red;
+top:-10px;
+}
+
+.ui-dialog{
+ top:40px ;
+ left:-20px ;
+ position:absolute; 
+ margin: 20px ;
+ background: mediumturquoise;
+ opacity: 0.8;
+}
+.ui-dialog-titlebar{
+ background:mediumslateblue;
+ opacity: 0.8;
+ border-radius: 20px;
+ height: 7px;
+}
+.right{
+height: 430px;
+width: 25%;
+background:lightpink;
+opacity: 0.7;
+border-radius: 20px;
+}
+.left{
+height: 430px;
+width: 25%;
+background:lightgreen;
+opacity: 0.7;
+border-radius: 20px;
+}
+
+span{
+color:red;
+}
